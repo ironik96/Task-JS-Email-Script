@@ -1,3 +1,25 @@
 {
-  "dependencies": {}
+  "name": "task-js-email-script",
+  "version": "1.0.0",
+  "description": "node app to send email certificates to names in excel file",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ironik96/Task-JS-Email-Script.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ironik96/Task-JS-Email-Script/issues"
+  },
+  "homepage": "https://github.com/ironik96/Task-JS-Email-Script#readme",
+  "dependencies": {
+    "convert-excel-to-json": "^1.7.0",
+    "dotenv": "^16.0.0",
+    "nodemailer": "^6.7.3"
+  }
 }
